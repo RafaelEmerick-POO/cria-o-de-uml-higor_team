@@ -1,0 +1,53 @@
+name: Atividade
+description: Card padrao para o cenario de modelagem UML.
+title: "[Atividade] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este card como unidade minima de trabalho. Vincule o card ao pull request correspondente.
+
+  - type: input
+    id: objective
+    attributes:
+      label: Objetivo
+      description: O que precisa ser concluido?
+      placeholder: Fechar diagrama, validar Mermaid Live, implementar classes, revisar README.
+    validations:
+      required: true
+
+  - type: textarea
+    id: files
+    attributes:
+      label: Arquivos afetados
+      description: Quais arquivos devem mudar?
+      placeholder: Ex.: docs/diagrama_classe.md, docs/modelo_inicial.mmd, src_cpp/equipamento.cpp
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterio de aceite
+      description: Como o professor vai saber que esta pronto?
+      placeholder: Ex.: diagrama renderiza, cardinalidade definida, codigo executa, PR com evidencias.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: O que deve ser anexado ao PR?
+      placeholder: Link do Mermaid Live, saida do terminal, print, justificativa tecnica.
+    validations:
+      required: true
+
+  - type: textarea
+    id: ai_log
+    attributes:
+      label: AI_LOG
+      description: Registre o uso de IA, se houver.
+      placeholder: O que foi pedido, o que foi aceito, o que foi rejeitado e a justificativa.
+    validations:
+      required: false

@@ -1,0 +1,13 @@
+# Build artefacts
+laboratorio
+*.o
+*.out
+*.exe
+build/
+cmake-build-*/
+
+# Python artefacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
