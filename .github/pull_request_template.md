@@ -2,7 +2,6 @@
 
 - Issue relacionada:
 - Branch:
-- Linguagem escolhida:
 
 ## O que mudou
 
@@ -10,15 +9,13 @@
 
 ## Evidencias
 
-- [ ] Diagrama atualizado em `docs/diagrama_classe.md`
+- [ ] UML do C++ atualizado em `docs/diagrama_cpp.md`
+- [ ] UML do Python atualizado em `docs/diagrama_python.md`
 - [ ] Mermaid Live validado
-- [ ] Implementacao minima concluida
-- [ ] README revisado
-- [ ] AI_LOG atualizado
+- [ ] Evidencias tecnicas anexadas
 
 ## Observacoes
 
-- Link do Mermaid Live:
-- O que foi aceito da IA:
-- O que foi rejeitado da IA:
-- Justificativa tecnica:
+- Link do Mermaid Live do C++:
+- Link do Mermaid Live do Python:
+- Principais decisoes de modelagem:

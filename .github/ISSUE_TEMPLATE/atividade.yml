@@ -12,7 +12,7 @@ body:
     attributes:
       label: Objetivo
       description: O que precisa ser concluido?
-      placeholder: Fechar diagrama, validar Mermaid Live, implementar classes, revisar README.
+      placeholder: Modelar o C++, modelar o Python, validar Mermaid Live ou fechar a entrega.
     validations:
       required: true
 
@@ -21,7 +21,7 @@ body:
     attributes:
       label: Arquivos afetados
       description: Quais arquivos devem mudar?
-      placeholder: Ex.: docs/diagrama_classe.md, docs/modelo_inicial.mmd, src_cpp/equipamento.cpp
+      placeholder: Ex.: docs/diagrama_cpp.md, docs/diagrama_python.md
     validations:
       required: true
 
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Criterio de aceite
       description: Como o professor vai saber que esta pronto?
-      placeholder: Ex.: diagrama renderiza, cardinalidade definida, codigo executa, PR com evidencias.
+      placeholder: Ex.: diagrama renderiza, representa corretamente o codigo, PR com evidencias.
     validations:
       required: true
 
@@ -42,12 +42,3 @@ body:
       placeholder: Link do Mermaid Live, saida do terminal, print, justificativa tecnica.
     validations:
       required: true
-
-  - type: textarea
-    id: ai_log
-    attributes:
-      label: AI_LOG
-      description: Registre o uso de IA, se houver.
-      placeholder: O que foi pedido, o que foi aceito, o que foi rejeitado e a justificativa.
-    validations:
-      required: false
