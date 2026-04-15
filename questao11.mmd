@@ -1,0 +1,27 @@
+classDiagram
+ControladorNivel "1"-->"2" Tanque
+ControladorNivel ..> Sensor
+Tanque "1"*--"1" Sensor
+ControladorNivel "1"-->"2" BombaRecalque
+
+class ControladorNivel{
+    +verificarNivel()
+    +ligarBomba()
+    +desligarBomba()
+}
+
+class BombaRecalque{
+    -estado: bool
+    +ligar()
+    +desligar()
+}
+
+class Tanque{
+    -nivelAtual: double
+    +getNivel()
+}
+
+class Sensor{
+    -valorLido: double
+    +lerValor()
+}
