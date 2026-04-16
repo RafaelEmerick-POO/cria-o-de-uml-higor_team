@@ -1,8 +1,12 @@
+---
+config:
+  layout: elk
+---
 classDiagram
-ControladorNivel "1"-->"2" Tanque
-ControladorNivel ..> Sensor
-Tanque "1"*--"1" Sensor
+ControladorNivel ..> HistoricoLeitura
 ControladorNivel "1"-->"2" BombaRecalque
+ControladorNivel ..> Sensor
+Tanque "2"*--"1" Sensor
 
 class ControladorNivel{
     +verificarNivel()
@@ -24,4 +28,10 @@ class Tanque{
 class Sensor{
     -valorLido: double
     +lerValor()
+}
+
+class HistoricoLeitura{
+    -leitura: lista
+    +registrarLeitura()
+    +consultarLeituras()
 }
