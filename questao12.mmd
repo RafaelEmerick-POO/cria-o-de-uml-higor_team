@@ -1,0 +1,20 @@
+classDiagram
+    AtivoIndustrial <|-- SensorTemperatura
+    AtivoIndustrial <|-- BombaRecalque
+
+    class AtivoIndustrial{
+        #tag: string
+        #area: string
+        +exibirIdentificacao()
+    }
+
+    class SensorTemperatura{
+        -valorAtual: double
+        +atualizarLeitura(valor: double)
+    }
+
+    class BombaRecalque{
+        -ligada: bool
+        +ligar()
+        +desligar()
+    }

@@ -112,8 +112,13 @@ Uma equipe recebeu dois codigos pequenos que representam um sensor de temperatur
 ## 9. Perguntas de revisao rapida
 
 1. O que um diagrama UML consegue mostrar sobre um codigo orientado a objetos?
+- Conseguimos visualizar o algorítmo de funcionamento do sistema com mais simplicidade.
+
 2. Como identificar heranca a partir da leitura do codigo?
+- A herança nós conseguimos identificar pela seta aberta com linha contínua no diagrama.
+
 3. O que muda entre sintaxe da linguagem e conceito de modelagem?
+- A diferença é que o conceito de modelagem é aplicável à múltiplas linguagens de programação, enquanto a sintaxe de linguagem é referente à uma linguagem específica.
 
 ---
 
